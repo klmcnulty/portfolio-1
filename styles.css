@@ -1,0 +1,51 @@
+h1 {
+    font-family: "Interstate Thin", sans-serif; 
+    font-weight: lighter;
+    font-size: 46px;
+    color: #e0e1e2;
+    margin: 5px;
+    padding: 0;
+}
+
+h3 {
+    font-family: sans-serif; 
+    font-weight: lighter;
+    font-size: 20px;
+    color: #aaa7a7;
+    margin: 3px 5px;
+    padding: 0;
+}
+
+#name-container {
+    position: relative;
+    float: left;
+    top: 220px;
+    left: 100px;
+}
+
+#carousel {
+    float: right;
+}
+
+#coming-soon {
+    position: relative;
+    top: 40px;
+    font-size: 25px;
+}
+
+body {
+    background-color: #2b4359;
+}
+
+/*Media queries*/
+
+@media screen and (max-width: 768px) {
+    #name-container {
+        top: 20px;
+        left: 20px;
+    }
+    
+    #coming-soon {
+        top: 100px;
+    }
+}
